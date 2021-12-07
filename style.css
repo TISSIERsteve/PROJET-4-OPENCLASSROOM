@@ -1106,8 +1106,10 @@ figcaption p {
 /* Fin Bloc 4 */
 
 /* Bloc 5 */
+.h1_bloc1,
 .h2_bloc5 {
-    color: #ffff !important;
+    font-weight: bold;
+    color: rgb(5, 5, 5) !important;
 }
 
 .btn_bloc5 {
