@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="fr">
+<!-- Mis en fr -->
 
 <head>
 
-    <!-- Encodage -->
+    <!-- Encodage en premier pour moi c'est plus logique-->
     <meta charset="utf-8">
 
     <!-- Résolution -->
@@ -17,7 +18,8 @@
     <!-- Mis le content de la meta -->
     <meta name="description" content="Entreprise La Chouette, création de site web et désign web dans la ville de Lyon">
 
-    <!-- Enlever la meta keyword les navigateur l'interprete plus -->
+    <!-- Enlever la meta keyword les navigateur l'interprete plus car
+         elle ne fait plus partis des critéres pour le référencement-->
 
     <!-- Logos -->
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
@@ -43,9 +45,11 @@
 
                     <nav class="navbar row">
                         <div class="navbar-header">
+                            <!-- Enlever les mots écris en blanc google ne les apprécie pas  -->
 
-                            <!-- Trop de texte alternatif -->
-                            <!-- Et remis sa longueur avec son conteneur et hauteur en css et compresser l'img -->
+                            <!-- Trop de texte alternatif et remis le style dans le fichier css -->
+                            <!-- Et remis sa longueur avec son conteneur et hauteur en css et compresser l'img
+                            remis en jpg et aussi enlever lien -->
                             <a class="navbar-brand" href="#"><img src="img/la-chouette-agence-min.jpg"
                                     alt="logo agence" />
                             </a>
@@ -64,8 +68,11 @@
                                     <a href="#">Accueil</a>
                                 </li>
 
+                                <!-- Supprimer le li inutile -->
+
                                 <li>
-                                    <a href="page2.html">Contact</a>
+                                    <!-- Changer page2.html en page contact.html plus propre -->
+                                    <a href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -80,6 +87,7 @@
             <!-- bloc-1-presentation -->
             <!-- Rajouter une section -->
             <section>
+                <!-- Enlever texture paper plus de visibilité -->
                 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture b-parallax"
                     id="bloc-1-hero">
                     <div class="container bloc-lg">
@@ -89,7 +97,8 @@
                                 <!-- Rajouter figure -->
                                 <figure>
 
-                                    <!-- Trop de texte alternatif et compresser img et redonner taille -->
+                                    <!-- Trop de texte alternatif et compresser img et remis en jpg et 
+                                        redonner taille et modifier son contraste aussi-->
                                     <img src="img/logo-min.jpg"
                                         class="center-block image-resize-mode chouette img_chouette"
                                         alt="Logo La chouette" />
@@ -214,6 +223,7 @@
             <!-- bloc-3-what-i-do -->
             <!-- Rajouter section -->
             <section>
+                <!-- Enlever texture paper plus de visibilitée -->
                 <div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture  b-parallax"
                     id="bloc-3-what-i-do">
                     <div class="container bloc-lg">
@@ -275,7 +285,8 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <a href="#" data-lightbox="img/1.png" data-gallery-id="gallery-1"
+                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1"
                                             data-caption="Refonte d'un site web pour un journal local"
                                             data-frame="snapshot-lb"><img src="./img/1-min.jpg"
                                                 alt="refonte site web journal"
@@ -297,7 +308,8 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <a href="#" data-lightbox="img/2.png" data-gallery-id="gallery-1"
+                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1"
                                             data-caption="Création d'un site web pour photographes"
                                             data-frame="snapshot-lb"><img src="img/2-min.jpg"
                                                 class="img-responsive portfolio-thumb img2"
@@ -324,7 +336,8 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <a href="#" data-lightbox="img/3.png" data-gallery-id="gallery-1"
+                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1"
                                             data-caption="Création d'un site internet pour un voyageur"
                                             data-frame="snapshot-lb"><img src="img/3-min.jpg"
                                                 class="img-responsive portfolio-thumb img3"
@@ -351,7 +364,8 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <a href="#" data-lightbox="img/4.png" data-gallery-id="gallery-1"
+                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1"
                                             data-caption="Conception d'un site pour une agence de mariage"
                                             data-frame="snapshot-lb"><img src="img/4-min.jpg"
                                                 class="img-responsive portfolio-thumb img4"
@@ -384,6 +398,7 @@
                 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bloc-bg-texture" id="bloc-5-cta">
                     <div class="container bloc-lg">
                         <div class="row">
+                            <!-- Modifier couleur -->
                             <h2 class="mg-md text-center h2_bloc5">
                                 Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
                             </h2>
@@ -406,6 +421,7 @@
                 <div class="container bloc-sm">
                     <div class="row">
                         <div class="col-sm-12">
+                            <!-- Changer couleur -->
                             <p class="text-center description icone_bloc8">
                                 La chouette agence - Agence web basée à Lyon.<br>
                             </p>
@@ -456,7 +472,7 @@
     <!-- Principal conteneur END -->
 
 
-    <!-- Descendu les scripts -->
+    <!-- Descendu les scripts pour lire aprés et defer aussi-->
     <!-- Script -->
     <script defer src="./js/jquery-2.1.0.js"></script>
     <script defer src="./js/blocs.js"></script>
