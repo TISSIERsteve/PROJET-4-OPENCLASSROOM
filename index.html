@@ -1,21 +1,22 @@
 <!doctype html>
 <html lang="fr">
-<!-- Mis en fr -->
+<!-- Mis en fr pour indiquez dans quelle langue le texte sera interprêter-->
 
 <head>
 
-    <!-- Encodage en premier pour moi c'est plus logique-->
+    <!-- Encodage en premier pour moi c'est plus logique ce qui permet de gérer
+    simplement les traductions des textes avec leur alphabet ainsi que les bons accents-->
     <meta charset="utf-8">
 
-    <!-- Résolution -->
+    <!-- Résolution pour adapter au tél portable-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
     <!-- Titre -->
-    <!-- Mis un titre -->
+    <!-- Mis un titre car elle est indispensable pour le SEO -->
     <title>Web design La Chouette Lyon</title>
 
     <!-- Description -->
-    <!-- Mis le content de la meta -->
+    <!-- Mis le content de la meta  pas plus de 155 caractères sinon elle est tronquée par les moteurs de recherche-->
     <meta name="description" content="Entreprise La Chouette, création de site web et désign web dans la ville de Lyon">
 
     <!-- Enlever la meta keyword les navigateur l'interprete plus car
@@ -37,6 +38,12 @@
     <!-- Principal conteneur -->
     <div class="page-container">
 
+        <!-- Pour la page accueil et contact j'ai refais une sémantiques
+            ce qui va permettre aux robots d'indexations de mieux interpréter la page et cibler son contenu 
+            et donne une meilleure accessibilité aux lectrices d'écrans car les div n'ont aucune sémantiques
+            et aussi remis les img en jpg car le jpg est plus léger et est idéal pour les images photographiques
+            numériques et les images d'arrière plan et offre plus de couleur -->
+
         <!-- bloc-0 -->
         <!-- Rajouter Header -->
         <header>
@@ -45,10 +52,15 @@
 
                     <nav class="navbar row">
                         <div class="navbar-header">
-                            <!-- Enlever les mots écris en blanc google ne les apprécie pas  -->
+                            <!-- Enlever les mots écris en blanc google ne les apprécie pas ceci s'appelle 
+                            du black hat SEO, ont les utilises pour un meilleur réfèrencement ou envoyer vers 
+                            un lien avec virus -->
 
-                            <!-- Trop de texte alternatif et remis le style dans le fichier css -->
-                            <!-- Et remis sa longueur avec son conteneur et hauteur en css et compresser l'img
+                            <!-- Trop de texte alternatif et remis le style dans le fichier css
+                            ce qui est mieux et ne surcharge pas la page html et plus rapide pour le chargement -->
+
+                            <!-- Et remis sa longueur avec son conteneur et hauteur en css car si les dimensions
+                            ne sont pas définies elles retardes le chargement de la page et compresser l'img
                             remis en jpg et aussi enlever lien -->
                             <a class="navbar-brand" href="#"><img src="img/la-chouette-agence-min.jpg"
                                     alt="logo agence" />
@@ -71,7 +83,7 @@
                                 <!-- Supprimer le li inutile -->
 
                                 <li>
-                                    <!-- Changer page2.html en page contact.html plus propre -->
+                                    <!-- Changer page2.html en page contact.html plus propre et plus précis-->
                                     <a href="contact.html">Contact</a>
                                 </li>
                             </ul>
@@ -87,7 +99,7 @@
             <!-- bloc-1-presentation -->
             <!-- Rajouter une section -->
             <section>
-                <!-- Enlever texture paper plus de visibilité -->
+                <!-- Enlever texture paper plus de visibilité aux mals voyants-->
                 <div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture b-parallax"
                     id="bloc-1-hero">
                     <div class="container bloc-lg">
@@ -97,7 +109,8 @@
                                 <!-- Rajouter figure -->
                                 <figure>
 
-                                    <!-- Trop de texte alternatif et compresser img et remis en jpg et 
+                                    <!-- Trop de texte alternatif mettre des mots simple et decriptif 
+                                        de l'image et compresser img et remis en jpg et 
                                         redonner taille et modifier son contraste aussi-->
                                     <img src="img/logo-min.jpg"
                                         class="center-block image-resize-mode chouette img_chouette"
@@ -130,7 +143,7 @@
 
                                 <!-- Mis un h2 -->
                                 <h2 class="h2_bloc2">
-                                    <!-- Enlever img et mis du texte -->
+                                    <!-- Enlever img et mis du texte car img sont lourdes au chargement-->
                                     La chouette agence est une agence de web design qui aide
                                     les entreprises à devenir attractives et visibles sur Internet.
                                 </h2>
@@ -223,7 +236,7 @@
             <!-- bloc-3-what-i-do -->
             <!-- Rajouter section -->
             <section>
-                <!-- Enlever texture paper plus de visibilitée -->
+                <!-- Enlever texture paper plus de visibilitée aux mals voyants-->
                 <div class="bloc tc-white bgc-atomic-tangerine bg-presentation d-bloc bloc-bg-texture  b-parallax"
                     id="bloc-3-what-i-do">
                     <div class="container bloc-lg">
@@ -285,7 +298,7 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <!-- Ajuster img à son conteneur compresser et mis en jpg  -->
                                         <a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1"
                                             data-caption="Refonte d'un site web pour un journal local"
                                             data-frame="snapshot-lb"><img src="./img/1-min.jpg"
@@ -308,7 +321,7 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <!-- Ajuster img à son conteneur compresser et mis en jpg  -->
                                         <a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1"
                                             data-caption="Création d'un site web pour photographes"
                                             data-frame="snapshot-lb"><img src="img/2-min.jpg"
@@ -336,7 +349,7 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <!-- Ajuster img à son conteneur compresser et mis en jpg  -->
                                         <a href="#" data-lightbox="img/3.jpg" data-gallery-id="gallery-1"
                                             data-caption="Création d'un site internet pour un voyageur"
                                             data-frame="snapshot-lb"><img src="img/3-min.jpg"
@@ -364,7 +377,7 @@
                                 <div class="col-sm-6">
                                     <!-- Rajouter figure -->
                                     <figure>
-                                        <!-- Ajouter img à son conteneur compresser et mis en jpg  -->
+                                        <!-- Ajuster img à son conteneur compresser et mis en jpg  -->
                                         <a href="#" data-lightbox="img/4.jpg" data-gallery-id="gallery-1"
                                             data-caption="Conception d'un site pour une agence de mariage"
                                             data-frame="snapshot-lb"><img src="img/4-min.jpg"
@@ -472,7 +485,8 @@
     <!-- Principal conteneur END -->
 
 
-    <!-- Descendu les scripts pour lire aprés et defer aussi-->
+    <!-- Descendu les scripts pour lire aprés et defer aussi comme sa si les scripts sont trop
+        lourd la page se chargera plus vite -->
     <!-- Script -->
     <script defer src="./js/jquery-2.1.0.js"></script>
     <script defer src="./js/blocs.js"></script>
